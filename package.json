@@ -1,0 +1,28 @@
+{
+  "name": "dwn",
+  "version": "0.0.1",
+  "repository": "git@github.com:fritx/dwn.git",
+  "description": "A simple tool for downloading via node.js",
+  "keywords": [
+    "dwn",
+    "download",
+    "stream"
+  ],
+  "bin": {
+    "dwn": "cli.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha"
+  },
+  "dependencies": {
+    "bufferhelper": "^0.2.0",
+    "mkdirp": "^0.5.1",
+    "progress-bar": "^0.1.1",
+    "request": "^2.60.0",
+    "through2": "^2.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5"
+  }
+}
